@@ -21,6 +21,10 @@ These requirements could be met with a Synapse module :
 
 - The receipts part should not be modified like this, but it's just a POC 🤷🏻
 
+## Directory
+
+TODO ...
+
 ## Run the POC 🚜
 
 ### Prerequisites

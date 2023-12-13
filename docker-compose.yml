@@ -53,6 +53,7 @@ services:
       - ./${SUB_DOMAIN_2}/mx-data:/data
       - ./${SUB_DOMAIN_2}/mx-conf:/mx-conf/
       - ./broadcast_module/:/usr/local/lib/python3.11/site-packages/broadcast_module
+      - ./eimis_directory_module/:/usr/local/lib/python3.11/site-packages/eimis_directory_module
       - ./synapse/handlers/receipts.py:/usr/local/lib/python3.11/site-packages/synapse/handlers/receipts.py
     environment:
       - SYNAPSE_CONFIG_PATH=/mx-conf/homeserver.yaml
