@@ -24,8 +24,7 @@ serve_server_wellknown: true
 modules:
 - module: broadcast_module.EimisBroadcast
   config:
-    url1: ${SUB_DOMAINS[0]}.$DOMAIN
-    url2: ${SUB_DOMAINS[1]}.$DOMAIN
+    directory_url: ${DIRECTORY_URL}
 " >> ./$SUB_DOMAIN/mx-conf/homeserver.yaml
 
 done

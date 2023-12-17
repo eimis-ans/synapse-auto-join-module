@@ -38,7 +38,10 @@ These requirements could be met with a Synapse module :
   USER=("admin_matrix" "alice" "bob")
   SUB_DOMAIN_1=kiwi
   SUB_DOMAIN_2=litchi
+  DIRECTORY_URL=https://something-that-returns-an-array-of-mxid?mxid=
   ```
+
+__DIRECTORY_URL :__ an url that, concatenated with a MXID, should return a json array of linked mxid.
 
 - start the stack
   
